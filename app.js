@@ -47,7 +47,7 @@ const createPokemonBox = (pokemon) => {
   pokemonEl.classList.add("poke-box");
   pokemonEl.style.backgroundColor = `${color}`;
 
-  pokemonEl.innerHTML = `<img src="https://seeklogo.com/images/B/bulbasaur-logo-8A27924C02-seeklogo.com.png" alt="${name} image">
+  pokemonEl.innerHTML = `<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/${id}.png" alt="${name} image">
             <h4 class="poke-name">${name}</h4>
             <p class="poke-id">${id}</p>
             <p class="poke-weight">${weight} Kg</p>
